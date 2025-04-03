@@ -21,7 +21,9 @@ This also assumes that the interaction between the incoming particle and the deu
 
 `Final State Interaction (FSI)` refers to the interactions that occur between the particles in the final state of a scattering process after the initial interaction has taken place. After the electron interacts with the deuteron, the proton and neutron in the final state may still interact with each other.
 
-`Charge Exchange` refers to the re-scattering process in the final state where there is a transfer of charge between the proton and neutron. Whilst the cause is still unknown, this results in the proton becoming a neutron, and the neutron becoming a proton which can heavily affect the cross-section.
+`Charge Exchange (CHEX)` refers to the re-scattering process in the final state where there is a transfer of charge between the proton and neutron. Whilst the cause is still unknown, this results in the proton becoming a neutron, and the neutron becoming a proton which can heavily affect the cross-section.
+
+![Diagrams of electrodisintegration amplitude: PWIA, FSI, CHEX, and Resonance respectively](diagrams_edenp.png)
 
 
 ## Variables and Parameters
