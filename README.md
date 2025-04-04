@@ -50,6 +50,8 @@ The computation of the kinematics is performed separately in GFortran and can no
 
 <p align = "center" href="url"><img src="https://github.com/MarlenAnalytics/deuteron_electrodisintegration/blob/main/crs_vs_thr0.png" height="400" width="550" ></p>
 
+[Code](https://github.com/MarlenAnalytics/deuteron_electrodisintegration/blob/main/theta_bjorken.py)
+
 The above visualization depicts the calculated cross-section values plotted with respect to the recoil nucleon polar angle at various recoil nucleon momenta with Q<sup>2</sup> set to 4.0 GeV. The stationary and moving cross-section curves assumes that the neutron is hypothetically 'free'. Whilst the bound cross-section curves takes into account the binding effects of the neutron being bound within the deuteron. Specifically, the bound and confound curve takes into account off-shell effects, meaning the neutron inside a nucleus is not in a free state and it does not satisfy the usual energy-momentum relation for a free particle. 
 
 We observe large deviations in the cross-section at very high recoil nucleon momenta, especially when the neutron isn't treated as 'free'. Since we know that the binding effects do affect the cross-section, we have to account for these deviations with other methods.
@@ -57,6 +59,8 @@ We observe large deviations in the cross-section at very high recoil nucleon mom
 ### PWIA, FSI, and CHEX
 
 <p align = "center" href="url"><img src="https://github.com/MarlenAnalytics/deuteron_electrodisintegration/blob/main/RNPCS.png" height="400" width="550" ></p>
+
+[Code](https://github.com/MarlenAnalytics/deuteron_electrodisintegration/blob/main/ratio_crs.py)
 
 We observe the ratio of the neutron cross-section and the proton cross-section at a fixed value of Q<sup>2</sup> = 4.0 GeV with respect to the recoil nucleon polar angle where each curve represents the different re-scattering events we consider. We see again large deviations at a high recoil nucleon momenta, especially when there is a charge exchange re-scattering. This can mean that protons are being detected instead of neutrons, which is undesirable if we want to extract precise measurements of neutron form-factors.
 
@@ -68,9 +72,13 @@ However, in order to remove any systematic uncertainties and to account for the 
 
 <p align = "center" href="url"><img src="https://github.com/MarlenAnalytics/deuteron_electrodisintegration/blob/main/rcf_smooth_updt.png" height="400" width="550" ></p>
 
+[Code](https://github.com/MarlenAnalytics/deuteron_electrodisintegration/blob/main/ratio_correction.py)
+
 We can infer that the charge exchange contribution deviates the most from 1.0, especially as we reach Q<sup>2</sup> = 18.0 GeV. The goal is to provide this data and information to JLAB, so they can then integrate all of it and apply it to experimental measurements.
 
 <p align = "center" href="url"><img src="https://github.com/MarlenAnalytics/deuteron_electrodisintegration/blob/main/Q2_x1.png" height="400" width="550" ></p>
+
+[Code](https://github.com/MarlenAnalytics/deuteron_electrodisintegration/blob/main/Q2_x1.py)
 
 The above figure depicts the logarithmically scaled cross-section plotted with respect to polar angle of the struck nucleon with respect to q, at varying values of Q<sup>2</sup>. We set Bjorken x equal to 1, which means that the momentum transfer in the scattering process is equal to the momentum of the struck nucleon. The virtual photon (q) interacts with a nucleon in such a way that the nucleon receives all the momentum transferred from the photon without any additional energy loss or gain. We again see that the FSI and CHEX contributions deviate heavily, from the 'stationary free nucleon' cross-section, reinforcing that the binding effects play a significant role and need to be accounted for.
 
